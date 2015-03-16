@@ -5,7 +5,7 @@ popd
 
 pushd .
 cd build
-./build_python_osx.sh
-./make_package_python.sh
+./build_python_linux.sh
+./make_package_python_linux.sh
 rm -rf python_osx
 popd
